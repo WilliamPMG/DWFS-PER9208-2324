@@ -1,0 +1,117 @@
+.contenedor {
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor > div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.contenedor__section--grey {
+    background-color: #22242E;
+    color: white;
+    padding: 150px;
+}
+
+.contenedor__linehorizontal--white {
+    border-bottom: 2px solid white;
+    width: 100%;
+    margin: 20px 0;
+}
+.contenedor__linehorizontal--black {
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.section--center {
+    display: block;
+    align-content: center;
+    width: 13em;
+    height: 13em;
+    border-radius: 50%;
+    border: 8px solid #f1f1f1;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Para asegurarse de que la imagen no sea más ancha que su contenedor */
+}
+
+
+.contenedor__section--white {
+    background-color: white;
+    color: black;
+    padding: 2em;
+}
+
+.contenedor__imagencolum {
+    float: left;
+    width: 3em;
+    height: 3em;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor_textcolum {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor__contactinfo {
+    margin-top: 20px;
+}
+
+.contenedor__contact-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contenedor__contact-icon {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle; /* Para alinear verticalmente el icono con el texto */
+}
+
+.sectiondos__centertitle{
+    text-align: center;
+    margin: 0;
+    padding: 65px;
+    background-image: url("../imagen/fondonombre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.progress {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    animation: progress-animation 3s ease-out forwards; /* Animación */
+}
+
+@keyframes progress-animation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 50%;
+    }
+}

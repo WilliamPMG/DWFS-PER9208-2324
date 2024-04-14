@@ -1,0 +1,75 @@
+body {
+    background: black;
+    border: yellow solid 2px;
+    margin: 10px;
+}
+
+.contenedor {
+    background: #3d3a3a;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px 5px 10px;
+    border-radius: 3px;
+    color: white;
+    height: 100px;
+}
+
+div.contenedor_medium {
+    display: flex;
+    height: 150px;
+    background: #3d3a3a;
+    margin: 20px 10px 5px 10px;
+}
+
+div.contenedor_large {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    text-align: center;
+    flex-direction: column;
+    height: 450px;
+    margin: 5px;
+    color: #ccac00;
+}
+
+div.contenedor_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background: #3d3a3a;
+    margin: 0 10px 30px 10px;
+    border-radius: 5px;
+    height: 150px;
+}
+
+table {
+    margin: 25px auto;
+    width: 50%;
+    border-collapse: separate;
+    color: burlywood;
+    border-spacing: 10px 15px;
+    display: block;
+}
+
+.asiento {
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    border: 1px solid #ccac00;
+    cursor: pointer;
+}
+
+.asiento--disponible {
+    background-color: #e6f7ff;
+
+}
+
+.asiento--ocupado {
+    background-color: yellow;
+}
+
+.asiento:hover {
+    background-color: #b3e0ff;
+}
