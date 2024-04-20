@@ -1,0 +1,24 @@
+#btn_generar_chiste{
+    background: #05d3f8;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: "Dubai Medium";
+    font-size: 16px;
+}
+
+#contenedor-principal{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+#contenedor-secundario{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Dubai Medium";
+    font-size: 18px;
+    text-align: justify;
+
+}

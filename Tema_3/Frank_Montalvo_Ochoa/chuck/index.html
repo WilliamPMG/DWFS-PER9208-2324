@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chuck Norris</title>
+</head>
+
+<body>
+
+    <main>
+        <header class="header">
+            <h1 class="header__title">CHUCK NORRIS</h1>
+        </header>
+
+        <section class="jokes">
+            <p id="joke" class="jokes__joke">Chuck Norris can divide by zero.</p>
+            <button class="jokes__button">Dame un chiste!</button>
+        </section>
+    </main>
+
+    <script>
+        const API_URL = 'https://api.chucknorris.io/jokes/random';
+
+        const parrafo = document.getElementById('joke');
+        const boton = document.querySelector('button');
+
+        boton.addEventListener('click', () => {
+            fetch(API_URL)
+                .then(response => response.json())
+                .then(data => {
+                    console.table(data);
+                    parrafo.textContent = data.value;
+                })
+                .catch(error => console.error(error));
+        });
+
+    </script>
+
+</body>
+
+</html>

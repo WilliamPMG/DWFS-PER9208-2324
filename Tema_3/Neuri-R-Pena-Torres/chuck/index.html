@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><!--incluir caracteres especiales para tildes y acentos sobre las letras-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>API de chistes aleatorios de Chuck Norris</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/c34fc4a3f5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <main>
+
+        <div>
+
+            <button class="button" onclick="fetchNewChunck()">Dame un nuevo chiste!</button>
+            <p id="chuck"></p>
+
+            <div class="await-icon">
+                <i id="chunkIcon" class="far fa-grin-alt"></i>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+<script>
+
+    function fetchNewChunck(){
+
+        const chunkLabel = document.getElementById("chuck");
+        const chunkIcon = document.getElementById("chunkIcon");
+
+        chunkLabel.innerHTML = "";
+        chunkIcon.className = "fa fa-spinner fa-pulse";
+
+        fetch('https://api.chucknorris.io/jokes/random')/*devuelve una promesa*/
+            .then(response =>{
+
+                if (response.ok) {
+                    
+                    return response.json();
+                }
+                throw new Error('Something went wrong');
+            })
+            .then(chunkData =>{
+
+                chunkLabel.innerHTML = chunkData.value;
+                chunkIcon.className = "far fa-grin-squint-tears green-color";
+            })
+            .catch(errorInfo =>{
+
+                chunkLabel.innerHTML = `${errorInfo}`;
+                chunkIcon.className = "fa-solid fa-circle-exclamation red-color";
+            });
+    }
+
+</script>
+
+</html>

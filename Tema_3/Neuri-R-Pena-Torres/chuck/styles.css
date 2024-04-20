@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos contenido o section principal*/
+main{
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 16px;
+}
+
+main p{
+
+    text-align: center;/*centrado del texto*/
+    padding: 16px;
+    font-size: x-large;
+}
+
+.button{
+    background-color: orange;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: 0;
+    margin: 0 auto;/*centrar el boton*/
+}
+
+.await-icon{
+
+    text-align: center;
+    margin: 0 auto;/*centrar el boton*/
+    font-size: x-large;
+}
+
+.red-color{
+
+    color: brown;
+}
+
+.green-color{
+
+    color: green;
+}
