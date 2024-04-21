@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema - Seleccion butacas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cinema.css">
+</head>
+<body class="bg-black">
+    <div class="container text-center">
+        <header class="header row rounded-top">
+            <div class="col align-self-center">
+                <h1>UNIR-CINEMA</h1>
+            </div>
+        </header>
+        <div class="row bg-secondary p-5"></div>
+        <div class="row justify-content-center p-2">
+            <div id="butacas_display" class="col-6 text-warning"></div>
+            <div class="row justify-content-center pt-3">
+                <div class="col-3">
+                    <form class="text-white">
+                        <div class="mb-3">
+                            <label for="reserva" class="form-label">Indica asientos a reservar</label>
+                            <input type="number" id="seat_input" class="form-control" placeholder="Número">
+                        </div>
+                        <button type="button" class="btn btn-warning">Confirmar Reserva</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="footer row p-3 mt-3">
+            <p class="fs-6">Cine UNIR-CINEMA</p>
+            <p class="fs-6">Avda. de la Paz, 137 26006, Logroño (La Rioja)</p>
+        </footer>
+    </div>
+    <script src="js/cinema.js"></script>
+</body>
+</html>

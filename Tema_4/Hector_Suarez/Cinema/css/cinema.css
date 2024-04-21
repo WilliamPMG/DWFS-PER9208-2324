@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(209 213 219);
+}
+
+.header {
+    background-color: rgb(31 41 55);
+    color: white;
+    height: 8rem;
+}
+
+.footer {
+    background-color: rgb(31 41 55);
+    color: white;
+}
+
+.seat {
+    border: solid rgb(251 191 36) 1px;
+    margin: .3rem;
+    height: 50px;
+}
+
+.seat--taken {
+    background-color: #404040;
+}
+
+.seat--pretaken {
+    background-color: #d3b300;
+}

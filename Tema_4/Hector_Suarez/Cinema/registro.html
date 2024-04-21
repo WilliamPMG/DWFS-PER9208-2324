@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIR Cinema - Registro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Registro de Usuario</h1>
+
+        <form id="userForm">
+            <div class="field">
+                <label for="fullName" class="label has-text-white-ter">Nombre y apellidos</label>
+                <div class="control is-expanded">
+                    <input id="fullName" type="text" name="fullName" class="input" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="username" class="label has-text-white-ter">Nombre de usuario</label>
+                <div class="control is-expanded">
+                    <input id="username" type="text" name="username" class="input" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="password" class="label has-text-white-ter">Contraseña</label>
+                <div class="control is-expanded">
+                    <input id="password" type="password" name="password" class="input" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="confirmPassword" class="label has-text-white-ter">Confirmar contraseña</label>
+                <div class="control is-expanded">
+                    <input id="confirmPassword" type="password" name="confirmPassword" class="input" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="email" class="label has-text-white-ter">Email</label>
+                <div class="control is-expanded">
+                    <input id="email" type="email" name="email" class="input" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <div class="control">
+                    <button class="button is-warning">
+                        <span>Send</span>
+                        <span class="icon">
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+    <script src="js/registro.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container img {
+    width: 30%;
+}
+.jokes {
+    background-color: beige;
+    color: darkslategrey;
+    padding: 4rem;
+    text-align: center;
+    width: 30%;
+}
