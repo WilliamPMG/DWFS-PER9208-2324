@@ -105,6 +105,7 @@
     color: white;
     font-weight: bold;
     animation: progress-animation 3s ease-out forwards; /* Animación */
+    width: 50%;
 }
 
 @keyframes progress-animation {
