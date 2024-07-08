@@ -9,7 +9,8 @@ En este ejercicio vamos a diseñar la API REST para la aplicación del juego "Hu
 - Modificar datos de una partida.
 - Iniciar una partida.
 - Finalizar una partida.
-- Consultar todos los datos (jugadores asociados, barcos de cada jugador, disparos realizados, ganador...) de una partida.
+- Consultar todos los datos (jugadores asociados, barcos de cada jugador, disparos realizados, ganador...) de una
+  partida.
 - Añadir un barco a la cuadrícula de un jugador en una partida.
 - Eliminar un barco de la cuadrícula de un jugador en una partida.
 - Consultar todos los barcos de un jugador de una partida.
@@ -35,7 +36,8 @@ En este ejercicio vamos a diseñar la API REST para la aplicación del juego "Hu
 - Modificar datos de una partida.
 - Iniciar una partida.
 - Finalizar una partida.
-- Consultar todos los datos (jugadores asociados, barcos de cada jugador, disparos realizados, ganador...) de una partida.
+- Consultar todos los datos (jugadores asociados, barcos de cada jugador, disparos realizados, ganador...) de una
+  partida.
 - Añadir un barco a la cuadrícula de un jugador en una partida.
 - Eliminar un barco de la cuadrícula de un jugador en una partida.
 - Consultar todos los barcos de un jugador de una partida.
