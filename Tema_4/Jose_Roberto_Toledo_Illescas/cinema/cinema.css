@@ -1,0 +1,85 @@
+html{
+    background-color: #424242;
+}
+
+td
+{
+    border:1px solid #fafafa;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 70px;
+    text-align: center;
+    color: #fafafa;
+}
+
+td:active{
+    background-color: #3e5e45;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado{
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen{
+    color: white;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 20px;
+    border-top: 2px solid white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.asientos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ocupado{
+    background-color: #80cbc4;
+}
+
+.reserva{
+    background-color: #26A69A;;
+}
+
+.normal{
+    background-color: #424242;
+}
+
+.ingresotxt{
+    color: #fafafa;
+}
+
+input{
+    margin: 10px;
+    color:#212121 ;
+    justify-content: center;
+}
+
+button{
+    font-size: larger;
+    background-color: #26A69A;
+    color: white;
+    padding: 6px;
+}

@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    button {
+        background: white;
+        border-radius: 5px;
+        padding: 15px 25px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .joke {
+
+    }
+}
+
+.content {
+    text-align: center;
+}

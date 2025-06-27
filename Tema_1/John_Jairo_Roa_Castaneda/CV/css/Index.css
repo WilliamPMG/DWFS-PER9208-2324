@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cv{
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+.cv__leftSection{
+    width: 55%;
+}
+
+h1{
+    font-family: "Yellowtail";
+    font-weight: 400;
+    font-style:normal !important;
+    font-size: 50px !important;
+}
+
+.leftSection__title{
+    background-color: #1e2e75;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0.5rem;
+    color: white;
+}
+
+.leftSection__titlec{
+    text-align: center;
+}
+
+.article__title{
+    background-color: #d7d8de;
+    text-align: center;
+    /* border-radius: 4px; */
+    margin-left: -3.2%;
+    width: 106.5%;
+    padding: 0.5rem;
+}
+
+.leftSection__experienceCard > p:first-child{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.leftSection__experienceCard > p{
+    text-align: justify;
+}
+
+.leftSection_tableLanguage{
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+
+.row__progressBar{
+    width: 100%;
+}
+
+.progress-bar{
+    background-color: #121298 !important;
+}
+
+.progress-bar__espanol{
+    width: 100%;
+}
+
+.progress-bar__english{
+    width: 75%;
+}
+
+.progress-bar__french{
+    width: 25%;
+}
+
+.cv__rightSection{
+    background-color:  #1e2e75;
+    /* border-radius: 1rem; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+.rightSection__image{
+    border-radius: 50%;
+    border: 2px solid white;
+    display: block;
+    margin: 5px auto 0;
+    width: 20vh;
+    height: 20vh;
+    object-fit:unset;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article__table{
+    border-collapse: separate;
+    border-spacing: 8px;
+    color: white;
+}
+
+.parrafo_table{
+    color:white;
+    text-align: justify;
+}
+
+.row__icon{
+    width: 40px;
+    color: white;
+}

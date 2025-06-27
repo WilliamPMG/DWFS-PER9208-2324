@@ -1,0 +1,198 @@
+body {
+  margin: 30px 0;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrap {
+  display: flex;
+}
+.wrap .side {
+  width: 25%;
+}
+.wrap .side img.profile {
+  width: 100%;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  margin-bottom: 40px;
+}
+.wrap .content {
+  width: 75%;
+}
+.wrap .content .info {
+  padding-left: 60px;
+}
+.wrap .content .info p {
+  margin: 0;
+}
+.wrap .content .info .name {
+  color: black;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 70px;
+  word-wrap: break-word;
+}
+.wrap .content .info .profession {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: 20px 0;
+}
+.wrap .content .info .card-header {
+  margin-top: 30px;
+}
+.wrap .content .info .description {
+  color: #4D4D4D;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  word-wrap: break-word;
+}
+
+.card {
+  border: 1px #A7A8C4 solid;
+  padding: 45px;
+}
+
+.card-header h3 {
+  color: black;
+  font-size: 29px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.card-header hr {
+  width: 55px;
+  height: 3px;
+  background: black;
+  margin: 0 0 15px;
+  border: 0;
+}
+
+.card.section-education {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.card.section-contact {
+  border-top-right-radius: 40px;
+  border: 0;
+  background: linear-gradient(180deg, #EFECF5 0%, white 100%);
+}
+
+.section-experience {
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.section-skills {
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.section-skills .card-body .skill {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.section-skills .card-body .skill .name {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  font-weight: 500;
+  width: 30%;
+}
+.section-skills .card-body .skill .point {
+  display: flex;
+  gap: 5px;
+}
+.section-skills .card-body .skill .point div {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.section-skills .card-body .skill .point div.active {
+  background: black;
+}
+
+.row {
+  display: flex;
+}
+.row .col-4 {
+  width: 33.33333333%;
+}
+.row .col-8 {
+  width: 66.66666667%;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-17 {
+  font-size: 17px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.color-secondary {
+  color: #4D4D4D;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

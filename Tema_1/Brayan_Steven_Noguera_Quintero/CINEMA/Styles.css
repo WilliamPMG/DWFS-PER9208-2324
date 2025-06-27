@@ -1,0 +1,190 @@
+
+.container{
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #e1e1e1;
+    font-family: "Roboto Condensed", sans-serif;
+
+    .unir-cinema-header{
+
+        background-color: #6b6666;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        padding-top: 1em;
+        padding-bottom: 1em;
+
+        h1{
+            color: #ffffff;
+        }
+
+
+    }
+
+    .unir-cinema-screen{
+
+        background-color: #101010;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+
+
+
+        h3{
+            color: #ffffff;
+        }
+
+    }
+
+    .unir-cinema-chairs {
+
+        table {
+
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 18px 20px;
+
+        }
+
+        th{
+            text-align: center;
+        }
+
+
+        td {
+
+            border: solid #5ff380 2px;
+            width: 35px;
+            border-radius: 10px;
+            font-size: 18px;
+            text-align: center;
+            color: #616461;
+
+
+        }
+
+
+
+        td:hover {
+            border: solid #1f1f1f 2px;
+            color: #1a1a1a;
+        }
+
+        td:active {
+            background-color: #5ff380;
+            color: #ffffff;
+            border: solid #5ff380 2px;
+
+        }
+
+        td[class="td-occupied"] {
+            background-color: rgb(181, 18, 27);
+            color: #ffffff;
+            border: solid rgb(181, 18, 27) 1px;
+        }
+
+    }
+
+    .unir-cinema-description{
+
+        table[class="table2"] {
+
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 5px 15px;
+
+
+
+
+        }
+
+        td {
+
+            border: solid #5ff380 2px;
+            width: 35px;
+            border-radius: 10px;
+            font-size: 18px;
+            text-align: center;
+            color: #616461;
+
+
+
+        }
+
+        td[class="td-you-chair"]{
+            background-color: #5ff380;
+            color: #ffffff;
+            border: solid #5ff380 1px;
+
+        }
+
+
+        td[class="td-occupied"] {
+            background-color: rgb(181, 18, 27);
+            color: #ffffff;
+            border: solid rgb(181, 18, 27) 1px;
+        }
+
+    }
+
+    .unir-cinema-booking{
+        background-color: #bfc6d0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+
+        p{
+            margin-bottom: 10px;
+            font-weight: bold;
+
+
+        }
+        .form-control{
+            width: 10%;
+            margin-bottom: 10px;
+            margin-top: 1px;
+
+
+
+        }
+
+
+        button{
+
+            width: 15%;
+            margin-bottom: 2px;
+            margin-top: 4px;
+
+
+        }
+    }
+
+    .footer{
+
+        margin-top: 20px;
+        margin-bottom: 30px;
+        .footer-information{
+            text-align: center;
+        }
+
+    }
+
+}
+
+
+
+
+
+
+
+
+

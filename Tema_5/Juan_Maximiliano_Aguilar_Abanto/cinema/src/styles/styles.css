@@ -1,0 +1,159 @@
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.principal
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.principal__cabecera
+{
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(77, 76, 76);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    height: 150px;
+    font-size: 24px;
+}
+
+.principal__cuerpo
+{
+    margin: 15px;
+    border-radius: 5px;
+    background-color: grey;
+    height: 100px;
+}
+
+
+.card {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    color: #f0e68c;
+}
+
+.card__titulo
+{
+    text-align: center;
+}
+
+.card__sinopsis
+{
+    text-align: justify;
+}
+
+.card__item
+{
+    text-align: center;
+}
+
+.principal__butacas__cuerpo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.principal__butacas
+{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.principal__butacas > * {
+    flex: 1 1 30%; 
+    max-width: 30%; 
+    margin: 10px;
+}
+
+
+.principal__butacas div
+{
+    vertical-align: middle;
+}
+
+.principal__pie
+{
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(77, 76, 76);
+    height: 150px;
+    color: white;
+    text-align: center;
+    vertical-align:  middle;
+    line-height:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.filaNombre
+{
+    color: yellow;
+}
+
+.asientoDisponible
+{ 
+    border: 1px;
+    border-color: yellow;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.asientoOcupado
+{
+    border: 1px;
+    border-color: yellow;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: yellow;
+}
+
+.asientoReservado
+{
+    border: 1px;
+    border-color: gray;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: gray;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.reservacion__butacas
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

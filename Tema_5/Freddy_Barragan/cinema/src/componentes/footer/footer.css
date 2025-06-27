@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    color: aliceblue;
+    border-top: solid 1px rgb(0, 44, 82);
+    background-color:rgb(22, 22, 22) ;
+    width: 80vw;
+}
+
+.footerNav > a{
+    color: aliceblue !important;
+    display: block;
+    align-content: center;
+}
+
+.footerNav > p{
+    color: aliceblue !important;
+    display: block;
+    align-content: center;
+}
+
+.footerNav > a:hover{
+    border-top: solid 1px #ffd700;
+}

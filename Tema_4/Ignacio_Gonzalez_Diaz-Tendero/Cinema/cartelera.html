@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UNIR Cinema - Registro</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/cartelera.css">
+</head>
+<body>
+
+<header>
+    <h1 class="text-sala">UNIR-CINEMA</h1>
+</header>
+<div class="cartelera-container">
+    <div class="row">
+        <!-- Película 1 -->
+        <div class="col s12 m3">
+            <div class="card">
+                <span class="card-title">Star Wars: Episodio I - <p>La amenaza fantasma</p> </span>
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/61+lrYp-EIL.jpg">
+                </div>
+                <div class="card-content">
+                    <p>Esta película sigue a Jedi Obi-Wan Kenobi y su aprendiz, Qui-Gon Jinn, en una misión para proteger a la reina Amidala de Naboo mientras enfrentan la creciente amenaza de un misterioso Sith Lord llamado Darth Maul. La historia también presenta a Anakin Skywalker, un niño esclavo con un destino profético.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="waves-effect waves-light btn modal-trigger" data-target="registerModal">Seleccionar
+                        Butacas</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Película 2 -->
+        <div class="col s12 m3">
+            <div class="card">
+                <span class="card-title">Star Wars: Episodio II - <p>El ataque de los clones</p> </span>
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/71iv84j6ePL.jpg">
+                </div>
+                <div class="card-content">
+                    <p>Ambientada diez años después de los eventos de La amenaza fantasma, la galaxia se encuentra al borde de la guerra. El joven Anakin Skywalker, se ve envuelto en un romance prohibido con Padmé Amidala mientras investiga una conspiración que amenaza la estabilidad de la República Galáctica.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="waves-effect waves-light btn modal-trigger" data-target="registerModal">Seleccionar
+                        Butacas</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Película 3 -->
+        <div class="col s12 m3">
+            <div class="card">
+                <span class="card-title">Star Wars: Episodio III - <p>La venganza de los sith</p> </span>
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/71MKj4j-isL._AC_UF894,1000_QL80_DpWeblab_.jpg">
+                </div>
+                <div class="card-content">
+                    <p>La galaxia está en plena guerra mientras los separatistas liderados por el Conde Dooku desafían a la República y a los Jedi. Anakin Skywalker se enfrenta a difíciles decisiones mientras su lealtad es puesta a prueba, llevándolo por un camino oscuro hacia su destino como Darth Vader.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="waves-effect waves-light btn modal-trigger" data-target="registerModal">Seleccionar
+                        Butacas</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Película 4 -->
+        <div class="col s12 m3">
+            <div class="card">
+                <span class="card-title">Star Wars - <p>El despertar de la Fuerza</p> </span>
+                <div class="card-image">
+                    <img src="https://m.media-amazon.com/images/I/8104RMlgxWL._AC_UF894,1000_QL80_.jpg">
+                </div>
+                <div class="card-content">
+                    <p> La galaxia se encuentra en un estado de turbulencia después de la caída del Imperio Galáctico. Una nueva amenaza, la Primera Orden, ha surgido para llenar el vacío dejado por el Imperio. La Resistencia, liderada por la General Leia Organa, lucha contra esta nueva fuerza oscura.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="waves-effect waves-light btn modal-trigger" data-target="registerModal">Seleccionar
+                        Butacas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- Modal Structure -->
+<div id="registerModal" class="modal">
+    <div class="modal-content">
+        <h4>Registro de Usuario</h4>
+        <form id="userForm">
+            <div class="input-field">
+                <input id="fullName" type="text" name="fullName" class="validate" required>
+                <label for="fullName">Nombre y apellidos</label>
+            </div>
+
+            <div class="input-field">
+                <input id="username" type="text" name="username" class="validate" required>
+                <label for="username">Nombre de usuario</label>
+            </div>
+
+            <div class="input-field">
+                <input id="password" type="password" name="password" class="validate" required>
+                <label for="password">Contraseña</label>
+            </div>
+
+            <div class="input-field">
+                <input id="confirmPassword" type="password" name="confirmPassword" class="validate" required>
+                <label for="confirmPassword">Confirmar contraseña</label>
+            </div>
+
+            <div class="input-field">
+                <input id="email" type="email" name="email" class="validate" required>
+                <label for="email">Email</label>
+            </div>
+
+            <button type="submit" class="btn waves-effect waves-light">
+                Registrar
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <label>Cine UNIR-CINEMA</label><br>
+    <label>Dirección: Calle Avenida de la Paz, 137. Logroño</label><br>
+    <label>Teléfono: +34 941209743</label><br>
+    <label>E-mail: cinefullstack@unircinema.com</label>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/validations.js"></script>
+
+<!-- Initialize Modal -->
+<script>
+
+</script>
+</body>
+</html>

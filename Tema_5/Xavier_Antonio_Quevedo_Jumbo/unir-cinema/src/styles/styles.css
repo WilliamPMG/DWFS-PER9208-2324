@@ -1,0 +1,173 @@
+/* Estilos para las butacas */
+.butaca {
+    border: 1px;
+    border-color: yellow;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.cinema
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px;
+    border-color: yellow;
+    border-style: solid;
+}
+
+.butaca--seleccionada {
+    border: 1px;
+    border-color: yellow;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: yellow;
+}
+
+.butaca--reservada {
+    border: 1px;
+    border-color: #565151;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: #565151;
+}
+
+.fila {
+    color: yellow;
+}
+
+/* Estilos para la pantalla al fondo */
+.nombreCine {
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(77, 76, 76);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    height: 150px;
+    font-size: 24px;
+}
+
+.pantalla2 {
+    margin: 15px;
+    border-radius: 5px;
+    background-color: grey;
+    height: 200px;
+}
+
+.footer{
+    margin: 15px;
+    border-radius: 5px;
+    background-color: rgb(77, 76, 76);
+    height: 150px;
+    color: white;
+    text-align: center;
+    vertical-align:  middle;
+    line-height:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.reservacion
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    color: #f0e68c;
+}
+
+/* src/movies.css */
+
+.App {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie {
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: calc((100% - 40px) / 3); /* Tamaño máximo de las columnas */
+    text-align: center;
+    color: #f0e68c;
+}
+
+.movie img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.movie h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.movie p {
+    margin-bottom: 10px;
+}
+
+.movie button:hover {
+    background-color: #555;
+}

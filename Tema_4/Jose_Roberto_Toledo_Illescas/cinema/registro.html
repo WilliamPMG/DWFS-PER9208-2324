@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="registro.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+
+<body>
+
+    <div>
+
+        <h1 class="center-align">Registro de Usuarios</h1>
+
+        <form id="formRegistro">
+
+            <div>
+                <label>Nombre y Apellidos</label>
+                <input id="nombreUser" type="text" required>
+            </div>
+            
+            <div>
+                <label>Nombre de usuario</label>
+                <input id="userCod" type="text" required>
+            </div>
+            
+            <div>
+                <label>Constraseña</label>
+                <input id="passUsu" type="password" required>
+            </div>
+            
+            <div>
+                <label>Confirmar contraseña</label>
+                <input id="confPass" type="password" required>
+            </div>
+            
+            <div>
+                <label>Correo</label>
+                <input id="correo" type="email" required>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit">
+                Registrar
+                <i class="material-icons right">send</i>
+            </button>
+            
+        </form>
+
+    </div>
+
+    <script src="registro.js"></script>
+    
+</body>
+
+</html>

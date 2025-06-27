@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    background-color: whitesmoke;
+}
+
+.container {
+    display: block;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 100%;
+}
+
+button:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+#oChiste {
+    margin-left: 20%;
+    margin-top: 1%;
+    background-color: lightblue;
+    width: 60%;
+    height: 40%;
+    font-size: 20px;
+}

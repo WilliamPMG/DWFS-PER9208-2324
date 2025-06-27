@@ -1,0 +1,54 @@
+{
+    "movies":
+    [
+        {
+            "titulo":"Star wars",
+            "sinopsis":"Anakin es el padre de Luke",
+            "duracion":"2:15",
+            "genero":"Ciencia fixión",
+            "puntuacion":"4.3",
+            "imagen":"https://i.blogs.es/1da08b/1366_2000-9-/840_560.jpeg"
+        },
+        {
+            "titulo":"El cisne negro",
+            "sinopsis":"Una bailarina empieza a perder el frágil sentido de la realidad en 'El lago de los cisnes'",
+            "duracion":"1:48",
+            "genero":"Suspenso, Terror psicológico",
+            "puntuacion":"4.2",
+            "imagen":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSnUFaFYTXT5i30PIVv36h4DVP53bPqGXki6e5x2ge_9wMX242G"
+        },
+        {
+            "titulo":"Guardians of the Galaxy Vol. 3",
+            "sinopsis":"Peter Quill debe reunir a su equipo para defender el universo de una nueva amenaza o, en caso de fracasar, será el final de los Guardianes.",
+            "duracion":"2:29",
+            "genero":"Ciencia fixión, Superheroes",
+            "puntuacion":"3.9",
+            "imagen":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ73kywd027gJ1R8Bo5MfN0ZbHwr06yOZ3dJO1xoIpDY5Wvg7KK"
+        },
+        {
+            "titulo":"Sing: ¡ven y canta!",
+            "sinopsis":"Un cerdo, un ratón, un puerco espín, un gorila, un elefante y otros animales se reúnen en un teatro koala para una competencia de canto.",
+            "duracion":"1:50",
+            "genero":"Infantil, Comedia",
+            "puntuacion":"4.0",
+            "imagen":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ-0H3KhmztR55pw13DDhEOoQ5MkqapKIZ6nT2leK50oUnHySvd"
+        },
+        {
+            "titulo":"El hombre de acero",
+            "sinopsis":"Clark Kent debe convertirse en un héroe y salvar a las personas que ama de una grave amenaza.",
+            "duracion":"2:23",
+            "genero":"Acción, Ciencia ficción",
+            "puntuacion":"3.7",
+            "imagen":"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSuqD8MRxRV6F9jGqrVnCIvHAa2kxw8RvFVVhcRnc_5kqzY9AIa"
+        },
+        {
+            "titulo":"King's Man: el origen",
+            "sinopsis":"Un grupo de tiranos y criminales se unen, un hombre tendrá que luchar contra el mal y contra el tiempo para detenerlos.",
+            "duracion":"2:11",
+            "genero":"Acción, Bélico",
+            "puntuacion":"3.6",
+            "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoil8pPI9032izwcFiEbLpNwgBzMFFloVVHQxbTrsQZiNv0tcJ"
+        }
+    ]
+    
+}

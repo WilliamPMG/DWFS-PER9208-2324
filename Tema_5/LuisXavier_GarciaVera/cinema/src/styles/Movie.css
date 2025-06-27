@@ -1,0 +1,10 @@
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre las tarjetas */
+  }
+  
+.card {
+width: calc(33.33% - 20px); /* Tamaño de cada tarjeta (ajusta según tus necesidades) */
+/* Otros estilos para la tarjeta */
+}

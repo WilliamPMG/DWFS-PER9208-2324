@@ -1,0 +1,91 @@
+.circle-container {
+  position: relative;
+  height: 35px; /* Ajusta la altura del contenedor según sea necesario */
+  background-color: lightgray; /* Cambia el color de fondo del contenedor si es necesario */
+  overflow: hidden; /* Oculta el contenido que se desborda del contenedor */
+}
+
+.circle {
+  width: 950px;
+  height: 70px; 
+  margin-top: 40px;
+  border-radius: 50%; 
+  background: radial-gradient(ellipse, transparent 0%, rgba(0, 0, 0, 0.1) 50%,  rgba(0, 0, 0, 0.5) 100%); /* Crea el degradado radial */
+}
+
+.screen_label{
+  position: absolute; 
+  top: 0; 
+  margin-top: 10px;
+  left: 0; 
+  right: 0; 
+  text-align: center; 
+}
+
+
+#seats{
+  background-color: lightgray;
+  padding: 5%;
+}
+
+#seats p{
+  font-weight: bold;
+}
+
+.btn-custom {
+  width: 30px; /* Ancho del botón */
+  height: 30px; /* Alto del botón */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.col-3{
+  text-align: right;
+}
+
+.footer {
+  background-color: #333; 
+  color: #beb6b6; 
+  padding: 10px 0; 
+  padding-left: 10px;
+}
+
+.footer p {
+  margin-bottom: 3px; 
+  font-size: small;
+}
+
+.container-fluid-custom {
+  display: grid;
+  gap: 3px;
+  align-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+.grid-container {
+  display: grid;
+  gap: 3rem; 
+  grid-template-columns: 1fr;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen_label {
+  margin-right: 1rem; 
+}
+
+.row-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; 
+}
+
+.screen {
+  width: 40;
+  height: 32;
+}
+

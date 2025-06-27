@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+h2, h3 {
+    margin-bottom: 10px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.section, .contact-info {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title, .contact-title {
+    font-weight: bold;
+    color: #2E8B57;
+}
+
+.section-content {
+    margin-left: 20px;
+}
+
+.experience-item {
+    margin-bottom: 10px;
+}

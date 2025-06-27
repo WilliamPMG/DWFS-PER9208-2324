@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../chuck/css/styles.css">
+    <link rel="icon" href="../chuck/recursos/iconos/favicon.ico" type="image/x-icon">
+    <title>Chistes UNIR</title>
+</head>
+<body>
+    <div class="contenedor">
+        <button id="btn-obtener-chistes" onclick="ObtenerChiste(event)">Dame un Chiste de Chuck Norris!</button><br><br>
+        <div class="resultado">holaa</div>
+    </div>
+</body>
+<script>
+    window.ObtenerChiste = async (e) => {
+      const botonChistes = document.querySelector("#btn-obtener-chistes");
+      botonChistes.disabled = true;
+      botonChistes.innerHTML = "Obteniendo....";
+      const urlChistes = "https://api.chucknorris.io/jokes/random";
+      const pnlResultado = document.querySelector(".resultado");
+      const response = await fetch(urlChistes);
+      const result = await response.json();
+      pnlResultado.innerHTML = result.value;
+      pnlResultado.style.display = "block";
+      botonChistes.innerHTML= "Dame un Chiste de Chuck Norris!";
+      botonChistes.disabled = false;
+      setTimeout(() => {
+        pnlResultado.style.display = "none";
+      }, 10000);
+    };
+  </script>
+</html>

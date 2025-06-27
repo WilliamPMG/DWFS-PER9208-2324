@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    background-color: whitesmoke;
+}
+
+.container {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.btn-container {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.text-container {
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+}
+
+button:hover {
+    background-color: rgb(60, 141, 94);
+    color: white;
+}
+
+#joke {
+    margin-left: 20%;
+    margin-top: 1%;
+    background-color: lightblue;
+    width: 60%;
+    height: 40%;
+    font-size: 20px;
+}

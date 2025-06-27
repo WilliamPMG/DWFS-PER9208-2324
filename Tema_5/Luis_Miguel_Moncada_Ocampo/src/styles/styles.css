@@ -1,0 +1,47 @@
+/* Estilo general en modo oscuro */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    background-color: #333;
+    border: 1px solid #444;
+    border-radius: 8px;
+    color: #f0e68c;
+}
+
+.title {
+    min-height: 80px;
+}
+
+.card-item {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.header-footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 0;
+}
+
+.header-footer-text {
+    color: #f0e68c;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.image-movie {
+    height: 25em;
+}
+
+.btn-buscar {
+    color: black;
+    background-color: #ffeb3bfc;;
+}

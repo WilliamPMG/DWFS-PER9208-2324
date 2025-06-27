@@ -1,0 +1,12 @@
+header {
+    background-color: #1F1F1F;
+    color: #ffc107;
+    height: 150px;
+    border-radius: 0 0 10px 10px;
+}
+
+.header__text {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}

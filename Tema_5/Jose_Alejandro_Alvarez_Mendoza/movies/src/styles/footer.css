@@ -1,0 +1,12 @@
+footer {
+    background-color: #1F1F1F;
+    color: #ffc107;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.footer__text {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}

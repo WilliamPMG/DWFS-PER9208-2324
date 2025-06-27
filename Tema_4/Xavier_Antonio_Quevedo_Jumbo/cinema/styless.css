@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+}
+section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.nombreCine__texto, .footer {
+    text-align: center;
+    color: white;
+}
+
+.pantalla__foto {
+    height: 600px;
+    width: 100%;
+}
+.butacas{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 15px;
+    color: white;
+}
+
+th {
+    color: yellow;
+    padding-right: 15px;
+}
+.form-label{
+    color: yellow;
+}
+td {
+    border: 1px solid yellow;
+    width: 40px;
+    height: 40px;
+    margin: 5px 15px 15px 5px;
+    padding: 5px 15px 15px 5px;
+}
+
+td:active {
+    background-color: green;
+}
+
+.td__ocupado {
+    background-color: yellow;
+}
+.formulario{
+    text-align: center;
+}
+.libre {
+    background-color: green;
+}
+
+.td__ocupado {
+    background-color: red;
+}
+
+.preseleccion {
+    background-color: yellow;
+}
+
+

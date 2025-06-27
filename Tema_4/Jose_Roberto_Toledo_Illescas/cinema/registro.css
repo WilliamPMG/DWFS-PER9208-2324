@@ -1,0 +1,26 @@
+body{
+    background-color: #424242;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #26A69A;
+}
+
+form{
+    background-color: #616161;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label{
+    color: #fafafa;
+}
+
+p{
+    color: red;
+    font-style: italic;
+}

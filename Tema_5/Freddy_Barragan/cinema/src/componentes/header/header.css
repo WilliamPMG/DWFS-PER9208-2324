@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    height: 4rem;
+    width: 80%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    color: aliceblue;
+    border-bottom: solid 1px rgb(0, 44, 82);
+    background-color:rgba(22, 22, 22, 0.855) ;
+}
+
+.logoName {
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
+
+.carreteImg{
+    object-fit: cover;
+    height: 80%;
+    margin-right: 10px;
+}
+
+nav {
+    align-content: center;
+    display: flex;
+}
+
+a{
+    color: aliceblue !important;
+    margin-left: 25px;
+    display: block;
+    align-content: center;
+}
+
+a:hover{
+    border-bottom: solid 1px #ffd700;
+}

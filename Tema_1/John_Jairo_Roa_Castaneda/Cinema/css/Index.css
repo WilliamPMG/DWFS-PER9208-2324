@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+    padding: 0;	
+}
+header {
+    background-color: #2596be;
+    color: #fff;
+    text-align: center;
+    padding: 13px;
+}
+
+.spantalla{
+	margin-top: 1%;
+	margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pantalla-sala{
+	border-radius: 3px;
+	padding: 20px;
+	width: 700px;
+    height: 140px;
+    /* background-color: #726d6db6; */
+    display: grid;
+	background: rgb(31,30,32);
+	background: linear-gradient(90deg, rgba(31,30,32,0.812937675070028) 0%, rgba(17,18,19,1) 99%);
+}
+
+.sala-cine {
+	width: 900px;
+	margin: 0 auto;
+}
+.fila {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.asiento {
+	width: 60px;
+	height: 60px;
+	margin: 0 10px;
+	/* background-color: gray; */
+	/* background-color: black; */
+	background-color: #2596be;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+	display: flex; /* Utilizamos flexbox */
+  	justify-content: center; /* Centramos horizontalmente */
+  	align-items: center; 
+	font-weight: bold;
+}
+.asiento-ocupado {
+	background-color: #ee2b2b;
+}
+
+.procesar-asientos {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn-procesar-asientos {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	margin-top: 1%;
+}
+
+.numberreserve {
+    background-color: #fff;
+    padding: 2px;
+    width: 100%;
+}
+
+
+footer {
+	background-color: #2596be;
+    color: #fff; 
+    padding: 20px; 
+	margin-top: 2%;
+	display: flex; /* Utilizamos flexbox */
+  	justify-content: center; /* Centramos horizontalmente */
+  	align-items: center; 
+	font-size: 18px;
+}
+
+footer > ul {
+	margin: 0;
+	list-style: none;
+}
+  
+footer > li {
+    margin-bottom: 20px; 
+	list-style: none;
+	display: flex; 
+    align-items: center;
+}
+  

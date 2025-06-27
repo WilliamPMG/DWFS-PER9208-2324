@@ -1,0 +1,75 @@
+body {
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titulo
+{
+    margin-top: 20px;
+    background-color: rgb(48, 48, 48);
+    width: 95%;
+    height: 120px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    display: flex;
+}
+
+.reservados
+{
+    margin-top: 20px;
+    background-color: rgb(48, 48, 48);
+    width: 95%;
+    height: 120px;
+}
+.cardb{
+    background-color: rgb(101, 101, 101);
+}
+
+div {
+    width: 80%;
+    margin: 0 auto;
+  }
+h1, h6{
+    color: white;
+    font-family: Verdana, sans-serif;
+}
+
+ th, p{
+    color: #e46fcd;;
+}
+
+.asiento {
+    border: #ea0788 2px solid;
+    width: 30px; 
+    height: 30px; 
+    background-color: white;
+  }
+  .seleccionado {
+    border: #ea0788 2px solid;
+    width: 30px; 
+    height: 30px; 
+    background-color: #e46fcd;
+  }
+
+button {
+    background-color: #e46fcd;
+    color: black;
+    border-color: #ea0788;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.footer
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(48, 48, 48);
+    width: 95%;
+    height: 150px;
+}

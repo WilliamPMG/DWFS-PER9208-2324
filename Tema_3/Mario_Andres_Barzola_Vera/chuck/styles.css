@@ -1,0 +1,10 @@
+#foto{
+    width: 25%;
+    border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titulo{
+    text-align: center;
+}
